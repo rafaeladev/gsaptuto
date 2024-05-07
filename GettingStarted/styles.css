@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.div1, .div2{
+  height: 100vh;
+}
+
+.div1{
+  background-color: pink;
+}
+
+.div2{
+  /* background-color: salmon; */
+}
+
+.square{
+  width: 20vh;
+  height: 20vh;
+  background-color: fuchsia;
+ 
+}
+
+.square2{
+  width: 20vh;
+  height: 20vh;
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.box-red {
+  background-color: red;
+}
+
+
+nav{
+  position: sticky;
+  top:0;
+  transition: all 0.6s ease-in-out;
+  background-color: pink;
+  color:black
+}
+
+ul{
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content:flex-end;
+  list-style-type: none;
+}
+
+li{
+  margin-right: 60px;
+}
+
+.nav-active {
+  background-color: white;
+  color: salmon;
+}
+
+p{
+  font-size: 50px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
